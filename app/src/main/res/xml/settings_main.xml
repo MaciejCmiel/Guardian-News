@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_date_default"
+        android:hint="2014-06-01"
+        android:inputType="date"
+        android:key="@string/settings_date_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_from_date_label" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/settings_debate_default"
+        android:key="@string/settings_debate_key"
+        android:title="@string/debate_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/settings_economy_default"
+        android:key="@string/settings_economy_key"
+        android:title="@string/economy_title" />
+
+</PreferenceScreen>

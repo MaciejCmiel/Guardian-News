@@ -2,4 +2,13 @@
 	<string name="app_name">GuardianNews</string>
 	<string name="no_internet_conection">No internet connection</string>
 	<string name="no_news">No news found.</string>
+    <string name="settings">Settings</string>
+	<string name="settings_date_key">date_key</string>
+	<string name="settings_date_default">2014–01–01</string>
+	<string name="settings_from_date_label">From date:</string>
+	<string name="settings_economy_key">economy_key</string>
+	<string name="settings_debate_key">debate_key</string>
+	<string name="debate_title">Debate</string>
+	<string name="economy_title">Economy</string>
+
 </resources>
